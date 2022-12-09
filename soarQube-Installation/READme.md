@@ -22,7 +22,7 @@ sudo useradd sonar
 # Grand sudo access to sonar user
 sudo echo "sonar ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/sonar
 # set hostname for the sonarqube server
-sudo hostnamectl set-hostname sonar 
+sudo hostnamectl set-hostname sonarqube
 sudo su - sonar
 ```
 ## 1b. Assign password to sonar user
