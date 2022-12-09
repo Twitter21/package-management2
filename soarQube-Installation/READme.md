@@ -68,7 +68,7 @@ sh /opt/sonarqube/bin/linux-x86-64/sonar.sh status
 # publicIP:9000
 ```sh
 curl -v localhost:9000
-54.236.232.85:9000
+curl 54.236.232.85:9000
 default USERNAME: admin
 default password: admin
 ```
